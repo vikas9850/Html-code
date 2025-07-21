@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PAN Card Replica</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .pan-card {
+      width: 600px;
+      height: 300px;
+      background: linear-gradient(to right, #add8e6, #d0e6f5);
+      border: 2px solid #003366;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      position: relative;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header img {
+      height: 60px;
+    }
+
+    .header h2 {
+      color: #003366;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .info {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #000;
+      line-height: 1.8;
+    }
+
+    .photo {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      border: 1px solid #000;
+      width: 100px;
+      height: 120px;
+      background-color: #fff;
+      background-image: url('https://via.placeholder.com/100x120.png?text=Photo');
+      background-size: cover;
+    }
+
+    .pan-number {
+      font-weight: bold;
+      color: #000080;
+      margin-top: 10px;
+    }
+
+    .signature {
+      font-style: italic;
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      color: #000;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="pan-card">
+    <div class="header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Emblem_of_India.svg/1200px-Emblem_of_India.svg.png" alt="India Emblem">
+      <h2>INCOME TAX DEPARTMENT</h2>
+    </div>
+
+    <div class="info">
+      <div>Name: <strong>Samruddhi Sandip Gunjal</strong></div>
+      <div>Father's Name: <strong>Sandip Gunjal</strong></div>
+      <div>Date of Birth: <strong>01/01/2000</strong></div>
+      <div class="pan-number">PAN: ABCDE1234F</div>
+    </div>
+
+    <div class="signature">Signature</div>
+    <div class="photo"></div>
+  </div>
+
+</body>
+</html
