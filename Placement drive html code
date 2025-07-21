@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Campus Placement Drive</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #004080;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #004080;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #003060;
+    }
+
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎓 Campus Placement Drive 2025</h1>
+    <p>Organized by Training & Placement Cell</p>
+  </header>
+
+  <div class="container">
+    <h2>📅 Date: August 5th, 2025</h2>
+    <h2>🏢 Company: Infosys Technologies</h2>
+    <p>
+      We are excited to invite final year students to participate in the upcoming Placement Drive
+      conducted by Infosys for Software Development, Data Analyst, and System Engineer roles.
+    </p>
+
+    <h3>📌 Eligibility Criteria:</h3>
+    <ul>
+      <li>B.E./B.Tech - All Branches (2025 batch)</li>
+      <li>Minimum 60% in 10th, 12th, and UG</li>
+      <li>No active backlogs</li>
+    </ul>
+
+    <h3>💼 Roles Offered:</h3>
+    <ul>
+      <li>Software Engineer</li>
+      <li>Data Analyst</li>
+      <li>System Engineer</li>
+    </ul>
+
+    <h3>📝 Registration Deadline:</h3>
+    <p>July 28th, 2025</p>
+
+    <a href="https://forms.gle/your-registration-form" class="btn">Register Now</a>
+  </div>
+
+  <footer>
+    For any queries, contact: placementcell@college.edu | +91-9876543210
+  </footer>
+
+</body>
+</html>
